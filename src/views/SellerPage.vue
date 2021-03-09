@@ -1,0 +1,19 @@
+<template>
+  <div>
+    <seller></seller>
+  </div>
+</template>
+<script>
+import Seller from '@/components/Seller'
+export default {
+  data () {
+    return {}
+  },
+  created () {},
+  methods: {},
+  components: {
+    seller: Seller
+  }
+}
+</script>
+<style lang="less" scoped></style>
